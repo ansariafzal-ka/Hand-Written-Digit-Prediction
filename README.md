@@ -28,10 +28,15 @@ To run this project, you need to have the following dependencies installed:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/handwritten-digit-predictor.git
-   cd handwritten-digit-predictor
+   git clone https://github.com/ansariafzal-ka/Hand-Written-Digit-Prediction.git
+   cd Hand-Written-Digit-Prediction
 
 2. **Install Dependencies:**
+
+   - Create the virtual environment:
+
+     ```bash
+     python -m venv venv
 
     - Activate the virtual environment:
 
@@ -44,7 +49,7 @@ To run this project, you need to have the following dependencies installed:
        pip install -r requirements.txt
        ```
 
-3. **Run the Application:**
+4. **Run the Application:**
 
    To start the application, run the following command in your terminal:
      ```bash
