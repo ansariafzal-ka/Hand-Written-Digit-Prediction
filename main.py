@@ -29,10 +29,11 @@ class DigitPredictor:
         self.window.resizable(False, False)
         self.window.title("Hand Written Digit Predictor")
         
-        self.canvas = tk.Canvas(self.window, width=self.BOX_SIZE, height=self.BOX_SIZE, bg="white")
-        self.canvas.grid(row=0, column=0, padx=25 ,pady=15)
+        self.canvas = tk.Canvas(self.window, width=self.BOX_SIZE, height=self.BOX_SIZE, bg="white", highlightbackground="#adacac", highlightthickness=1)
+        self.canvas.grid(row=0, column=0, padx=25, pady=15)
+
         
-        self.digit_frame = tk.Frame(self.window, width=self.BOX_SIZE, height=self.BOX_SIZE, bg="white")
+        self.digit_frame = tk.Frame(self.window, width=self.BOX_SIZE, height=self.BOX_SIZE, bg="white", highlightbackground="#adacac", highlightthickness=1)
         self.digit_frame.grid(row=0, column=1)
         
         self.prediction_label = tk.Label(self.digit_frame, font=("Arial", 96), foreground="black", bg="white")
